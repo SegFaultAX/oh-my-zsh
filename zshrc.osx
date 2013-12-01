@@ -35,3 +35,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+export PATH=$HOME/bin:/Users/mkbernard/Library/Python/2.7/bin:$PATH
+
+alias tmux=tmux -2
+unsetopt correct_all
+unsetopt correct
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M"
